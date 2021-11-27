@@ -65,8 +65,8 @@ button:hover {
 }
 
 canvas {
-  width: 400px;
-  height: 500px;
-  border: 2px solid #FFF;
-  border-radius: 4%;
+  width: 420px;
+  height: 560px;
+  border: 1px solid #FFF;
+  border-radius: 1%;
 }
