@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'consolas', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+  background-color: #313131;
+}
+
+.camera {
+  position: relative;
+}
+
+.result {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: #313131;
+  transition: 0.3s;
+}
+
+.result.hasPhoto {
+  left: 0;
+}
+
+video {
+  width: 600px;
+  max-width: 600px;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  appearance: none;
+  border: 1px solid #313131;
+  padding: 8px 16px;
+  background-image: linear-gradient(to right, rgb(1, 97, 84) 50%, rgba(1, 113, 133, 0.966) 50%);
+  background-position: 0;
+  background-size: 200%;
+  color: #FFF;
+  font-size: 23px;
+  font-weight: 700;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-position: 100%;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+}
