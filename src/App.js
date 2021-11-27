@@ -49,7 +49,7 @@ function App() {
     <div className="App">
     <div className="camera">
         <video ref={videoRef}></video>
-        <button onClick={takePhoto}>Fotografiši</button>
+        <button onClick={takePhoto}>Fotografiši Pero</button>
     </div>
         <div className ={' result ' + (hasPhoto ? ' hasPhoto ' : '')}>
           <canvas ref={photoRef}></canvas>
