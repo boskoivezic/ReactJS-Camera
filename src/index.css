@@ -37,8 +37,8 @@
 }
 
 video {
-  width: 700;
-  max-width: 500;
+  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
