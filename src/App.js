@@ -56,7 +56,9 @@ function App() {
           <button onClick={closePhoto}>Zatvori</button>
         </div>
     </div>
+    
   );
+  
 }
 
 export default App;
