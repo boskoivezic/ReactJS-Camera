@@ -67,5 +67,6 @@ button:hover {
 canvas {
   width: 400px;
   height: 500px;
-  border-radius: 50%;
+  border: 2px solid #FFF;
+  border-radius: 4%;
 }
