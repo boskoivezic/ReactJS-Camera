@@ -13,6 +13,7 @@
 
 .camera {
   position: relative;
+  
 }
 
 .result {
@@ -25,15 +26,19 @@
   align-items: center;
   background-color: #313131;
   transition: 0.3s;
+  
+  
 }
 
 .result.hasPhoto {
-  left: 0;
+  width: auto;
+  height: auto;
+  left: 0;  
 }
 
 video {
-  width: 600px;
-  max-width: 600px;
+  width: 700;
+  max-width: 500;
   height: auto;
 }
 
@@ -44,10 +49,10 @@ button {
   appearance: none;
   border: 1px solid #313131;
   padding: 8px 16px;
-  background-image: linear-gradient(to right, rgb(1, 97, 84) 50%, rgba(1, 113, 133, 0.966) 50%);
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, rgba(114, 114, 114, 0.966) 50%);
   background-position: 0;
   background-size: 200%;
-  color: #FFF;
+  color: rgb(0, 0, 0);
   font-size: 23px;
   font-weight: 700;
   transition: 0.3s;

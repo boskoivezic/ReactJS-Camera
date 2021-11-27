@@ -19,8 +19,8 @@ function App() {
   }
 
   const takePhoto = () => {
-    const width = 416;
-    const height = width / (16/9);
+    const width = 700;
+    const height = 500;
 
     let video = videoRef.current;
     let photo = photoRef.current;
@@ -51,7 +51,7 @@ function App() {
         <video ref={videoRef}></video>
         <button onClick={takePhoto}>Fotografiši</button>
     </div>
-        <div className ={' result ' + (hasPhoto ? 'hasPhoto' : '')}>
+        <div className ={' result ' + (hasPhoto ? ' hasPhoto ' : '')}>
           <canvas ref={photoRef}></canvas>
           <button onClick={closePhoto}>Zatvori</button>
         </div>
