@@ -32,9 +32,9 @@
 }
 
 .result.hasPhoto {
-  width: 100%;
+  width: 300px;
   max-width: 100%;
-  height: auto;
+  height: 650px;
   left: 0;  
 }
 
